@@ -1,4 +1,4 @@
-package com.rago.googlemapjetpackcompose.ui.theme
+package com.rago.googlemapjetpackcompose.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

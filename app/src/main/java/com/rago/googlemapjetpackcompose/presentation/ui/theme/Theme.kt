@@ -1,4 +1,4 @@
-package com.rago.googlemapjetpackcompose.ui.theme
+package com.rago.googlemapjetpackcompose.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -52,13 +52,13 @@ fun GoogleMapJetpackComposeTheme(
         darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
-    val view = LocalView.current
+    /*val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
             (view.context as Activity).window.statusBarColor = colorScheme.primary.toArgb()
             ViewCompat.getWindowInsetsController(view)?.isAppearanceLightStatusBars = darkTheme
         }
-    }
+    }*/
 
     MaterialTheme(
         colorScheme = colorScheme,
