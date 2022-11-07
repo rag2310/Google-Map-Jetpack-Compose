@@ -6,6 +6,10 @@ import android.content.pm.PackageManager
 import android.location.Location
 import androidx.core.app.ActivityCompat
 import androidx.navigation.NavHostController
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.LatLng
+import com.google.maps.android.compose.CameraPositionState
 
 fun Context.hasPermission(permission: String): Boolean {
 
@@ -40,4 +44,17 @@ fun NavHostController.navigateAndClean(
     ) {
         popUpTo(0)
     }
+}
+
+suspend fun CameraPositionState.moveCamera(
+    latLng: LatLng,
+    duration: Int = 1_000,
+    zoom: Float? = null
+) {
+    val cameraPosition = CameraPosition.fromLatLngZoom(
+        latLng, zoom ?: 18f
+    )
+    this.animate(
+        CameraUpdateFactory.newCameraPosition(cameraPosition), duration
+    )
 }

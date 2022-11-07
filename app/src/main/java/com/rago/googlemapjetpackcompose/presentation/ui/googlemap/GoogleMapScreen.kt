@@ -2,19 +2,25 @@ package com.rago.googlemapjetpackcompose.presentation.ui.googlemap
 
 import android.annotation.SuppressLint
 import android.location.Location
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Scaffold
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.MyLocation
+import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
-import com.google.maps.android.compose.GoogleMap
-import com.google.maps.android.compose.MapProperties
-import com.google.maps.android.compose.rememberCameraPositionState
+import com.google.maps.android.compose.*
+import com.rago.googlemapjetpackcompose.data.utils.moveCamera
 import com.rago.googlemapjetpackcompose.presentation.states.GoogleMapUIState
+import kotlinx.coroutines.launch
 
 @Composable
 fun GoogleMapScreen(googleMapUIState: GoogleMapUIState, location: Location?) {
@@ -30,6 +36,15 @@ private fun GoogleMapContent(googleMapUIState: GoogleMapUIState, location: Locat
         mutableStateOf(MapProperties(isMyLocationEnabled = true))
     }
 
+    val uiSettings by remember {
+        mutableStateOf(
+            MapUiSettings(
+                myLocationButtonEnabled = false,
+                zoomControlsEnabled = false
+            )
+        )
+    }
+
     var mapIsReady by remember {
         mutableStateOf(false)
     }
@@ -40,16 +55,37 @@ private fun GoogleMapContent(googleMapUIState: GoogleMapUIState, location: Locat
         mutableStateOf(true)
     }
 
+    var userMoveCamera by remember {
+        mutableStateOf(false)
+    }
+
+    var lastLocation by remember {
+        mutableStateOf<LatLng?>(null)
+    }
+
+    val scope = rememberCoroutineScope()
+
     LaunchedEffect(key1 = location, block = {
         location?.let {
             val latLng = LatLng(it.latitude, it.longitude)
+            if (!firstTime && !userMoveCamera) {
+                cameraPositionState.moveCamera(latLng)
+            }
+
             if (firstTime) {
                 cameraPositionState.position = CameraPosition.fromLatLngZoom(latLng, 18f)
                 firstTime = false
             }
+
+            lastLocation = latLng
         }
     })
 
+    LaunchedEffect(key1 = cameraPositionState.cameraMoveStartedReason, block = {
+        if (cameraPositionState.cameraMoveStartedReason == CameraMoveStartedReason.GESTURE) {
+            userMoveCamera = true
+        }
+    })
 
     Scaffold(Modifier.fillMaxSize()) {
         Box(modifier = Modifier.fillMaxSize()) {
@@ -60,8 +96,51 @@ private fun GoogleMapContent(googleMapUIState: GoogleMapUIState, location: Locat
                 onMapLoaded = {
                     mapIsReady = true
                 },
-                cameraPositionState = cameraPositionState
+                cameraPositionState = cameraPositionState,
+                uiSettings = uiSettings
             )
+            if (!mapIsReady) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .background(Color.White),
+                    contentAlignment = Alignment.Center
+                ) {
+                    CircularProgressIndicator()
+                }
+            }
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .align(Alignment.BottomCenter)
+                    .padding(horizontal = 16.dp)
+                    .padding(bottom = 10.dp),
+                horizontalArrangement = Arrangement.End
+            ) {
+                AnimatedVisibility(visible = userMoveCamera) {
+                    ElevatedCard(
+                        onClick = {
+                            scope.launch {
+                                lastLocation?.let {
+                                    cameraPositionState.moveCamera(it)
+                                    userMoveCamera = false
+                                }
+                            }
+                        },
+                        shape = CircleShape,
+                        colors = CardDefaults.cardColors(
+                            containerColor = Color.White
+                        )
+                    ) {
+                        Box(
+                            modifier = Modifier.padding(10.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Filled.MyLocation, contentDescription = null)
+                        }
+                    }
+                }
+            }
         }
     }
 }

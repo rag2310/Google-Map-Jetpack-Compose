@@ -79,8 +79,12 @@ dependencies {
     // MAP -----------------------------------
     implementation "com.google.maps.android:maps-compose:$map_compose"
     implementation "com.google.android.gms:play-services-maps:18.1.0"
-    implementation 'com.google.android.gms:play-services-location:21.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
     implementation "com.google.maps.android:maps-ktx:3.3.0"
     implementation "com.google.maps.android:android-maps-utils:2.3.0"
+
+
+    implementation 'androidx.compose.material:material-icons-extended:1.4.0-alpha01'
+
 
 }
