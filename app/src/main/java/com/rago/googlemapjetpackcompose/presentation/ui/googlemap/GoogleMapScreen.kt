@@ -2,6 +2,7 @@ package com.rago.googlemapjetpackcompose.presentation.ui.googlemap
 
 import android.annotation.SuppressLint
 import android.location.Location
+import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -16,10 +17,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.JointType
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.RoundCap
 import com.google.maps.android.compose.*
 import com.rago.googlemapjetpackcompose.data.utils.moveCamera
 import com.rago.googlemapjetpackcompose.presentation.states.GoogleMapUIState
+import com.rago.googlemapjetpackcompose.presentation.states.RouteLabels
+import com.rago.googlemapjetpackcompose.presentation.states.RouteLabels.*
 import kotlinx.coroutines.launch
 
 @Composable
@@ -98,7 +103,26 @@ private fun GoogleMapContent(googleMapUIState: GoogleMapUIState, location: Locat
                 },
                 cameraPositionState = cameraPositionState,
                 uiSettings = uiSettings
-            )
+            ) {
+                googleMapUIState.points.forEach {
+                    Polyline(
+                        points = it.points,
+                        color = when (it.typeRoute) {
+                            DEFAULT_ROUTE -> {
+                                it.color
+                            }
+                            DEFAULT_ROUTE_ALTERNATE -> {
+                                it.color.copy(alpha = 0.3f)
+                            }
+                        },
+                        width = 25f,
+                        endCap = RoundCap(),
+                        startCap = RoundCap(),
+                        onClick = it.onClick,
+                        clickable = true
+                    )
+                }
+            }
             if (!mapIsReady) {
                 Box(
                     modifier = Modifier
@@ -109,36 +133,51 @@ private fun GoogleMapContent(googleMapUIState: GoogleMapUIState, location: Locat
                     CircularProgressIndicator()
                 }
             }
-            Row(
+            Column(
                 Modifier
                     .fillMaxWidth()
                     .align(Alignment.BottomCenter)
                     .padding(horizontal = 16.dp)
-                    .padding(bottom = 10.dp),
-                horizontalArrangement = Arrangement.End
             ) {
-                AnimatedVisibility(visible = userMoveCamera) {
-                    ElevatedCard(
-                        onClick = {
-                            scope.launch {
-                                lastLocation?.let {
-                                    cameraPositionState.moveCamera(it)
-                                    userMoveCamera = false
+                Row(
+                    Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 10.dp),
+                    horizontalArrangement = Arrangement.End
+                ) {
+                    AnimatedVisibility(visible = userMoveCamera) {
+                        ElevatedCard(
+                            onClick = {
+                                scope.launch {
+                                    lastLocation?.let {
+                                        cameraPositionState.moveCamera(it)
+                                        userMoveCamera = false
+                                    }
                                 }
-                            }
-                        },
-                        shape = CircleShape,
-                        colors = CardDefaults.cardColors(
-                            containerColor = Color.White
-                        )
-                    ) {
-                        Box(
-                            modifier = Modifier.padding(10.dp),
-                            contentAlignment = Alignment.Center
+                            },
+                            shape = CircleShape,
+                            colors = CardDefaults.cardColors(
+                                containerColor = Color.White
+                            )
                         ) {
-                            Icon(Icons.Filled.MyLocation, contentDescription = null)
+                            Box(
+                                modifier = Modifier.padding(10.dp),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Filled.MyLocation, contentDescription = null)
+                            }
                         }
                     }
+                }
+                Row(
+                    Modifier
+                        .fillMaxWidth()
+                        .height(72.dp)
+                        .background(Color.White),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(text = googleMapUIState.text)
                 }
             }
         }

@@ -1,0 +1,1617 @@
+{
+  "routes": [
+    {
+      "legs": [
+        {
+          "distanceMeters": 2617,
+          "duration": "600s",
+          "staticDuration": "625s",
+          "polyline": {
+            "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@BDDJk@~@S^U\\fA`A`@\\^Zl@d@RRv@l@z@|@v@f@ZRPJTPJHFHDFFLJXDPBPF^@TEREb@AL?JDNBNFLFNJHLHJBFBF?P@JAXGt@c@\\Qp@[TY|AaCRa@HDB@D@BBBDBHHRBDDHHNJLLJHFH@T?`@G`@GXIPEHGJQDIHOFSFOBEDCFCJ?PA`@?D?D?FCxAt@|Az@\\PXNPH^R^PXNBBhAj@f@Zv@\\x@`@RLHF|@f@PPHDDDDDDJDRAPEj@ALAJC^ADAHAPCVMjAGd@Gd@G^?D?F?JBPBNDHDHDDDDD@VJJD\\JLBHFFDFJFHJTP`@R`@N\\f@bALVDH|@~ANVf@v@JJNLbCdBVPBBvAv@n@ZVa@Vc@Tk@"
+          },
+          "startLocation": {
+            "latLng": {
+              "latitude": 22.7758329,
+              "longitude": -102.57334829999999
+            }
+          },
+          "endLocation": {
+            "latLng": {
+              "latitude": 22.761165,
+              "longitude": -102.58438220000001
+            }
+          },
+          "steps": [
+            {
+              "distanceMeters": 171,
+              "staticDuration": "59s",
+              "polyline": {
+                "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@@@@B@@BH"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7758329,
+                  "longitude": -102.57334829999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.774482,
+                  "longitude": -102.57408009999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 81,
+              "staticDuration": "24s",
+              "polyline": {
+                "encodedPolyline": "oc_jC~~`qRk@~@S^U^"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.774482,
+                  "longitude": -102.57408009999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.77491,
+                  "longitude": -102.57471989999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 299,
+              "staticDuration": "80s",
+              "polyline": {
+                "encodedPolyline": "ef_jC~baqRfA~@`@\\^Zl@d@RRv@l@|@|@t@f@ZRPJ"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.77491,
+                  "longitude": -102.57471989999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7728009,
+                  "longitude": -102.5765249
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia Fernando Villalpando\nPasa por Zac Ink Tattoo & Piercing Studio (a la izquierda)."
+              }
+            },
+            {
+              "distanceMeters": 209,
+              "staticDuration": "51s",
+              "polyline": {
+                "encodedPolyline": "_y~iCfnaqRTPJH?@FFDFFLJXDPBPF^@TEREb@AL?JDNBNFLFNJHLHJB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7728009,
+                  "longitude": -102.5765249
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7721105,
+                  "longitude": -102.57824339999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "STRAIGHT",
+                "instructions": "Continúa recto hacia Elías Amador"
+              }
+            },
+            {
+              "distanceMeters": 41,
+              "staticDuration": "8s",
+              "polyline": {
+                "encodedPolyline": "ut~iC~xaqRFBF?P@JAXG"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7721105,
+                  "longitude": -102.57824339999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7717487,
+                  "longitude": -102.57822340000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SLIGHT_LEFT",
+                "instructions": "Gira ligeramente a la izquierda para continuar en Elías Amador"
+              }
+            },
+            {
+              "distanceMeters": 209,
+              "staticDuration": "44s",
+              "polyline": {
+                "encodedPolyline": "mr~iCzxaqRt@c@^Qn@[TY|AaCRa@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7717487,
+                  "longitude": -102.57822340000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.770402699999998,
+                  "longitude": -102.57686489999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SLIGHT_LEFT",
+                "instructions": "Gira ligeramente a la izquierda hacia Manuel M. Ponce"
+              }
+            },
+            {
+              "distanceMeters": 280,
+              "staticDuration": "54s",
+              "polyline": {
+                "encodedPolyline": "_j~iCjpaqRHDB@D@BBBFBFHRBDDHHNJLLJHFJBRA`@G`@GXIPEHGJQDIHOFSFOBEDCBABAJ?PA`@?D?D?BABA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.770402699999998,
+                  "longitude": -102.57686489999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7684055,
+                  "longitude": -102.5767503
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia Enrique Estrada"
+              }
+            },
+            {
+              "distanceMeters": 476,
+              "staticDuration": "98s",
+              "polyline": {
+                "encodedPolyline": "q}}iCtoaqRxAt@|Az@\\PXNPH^R^PXNDBfAj@f@Zv@\\x@`@RLHF|@f@PPHDDDDDDJDR"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7684055,
+                  "longitude": -102.5767503
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7647877,
+                  "longitude": -102.57916010000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha después de Súper Elotes (a la derecha)"
+              }
+            },
+            {
+              "distanceMeters": 285,
+              "staticDuration": "56s",
+              "polyline": {
+                "encodedPolyline": "}f}iCv~aqRAPEj@ALAJC^ADAHAPCVMjAGd@Gd@G^?D?F?JBP?@BLDHDHDDDDD@VJJD\\J"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7647877,
+                  "longitude": -102.57916010000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.764589800000003,
+                  "longitude": -102.5815903
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SLIGHT_RIGHT",
+                "instructions": "Gira ligeramente a la derecha hacia De La Unión"
+              }
+            },
+            {
+              "distanceMeters": 496,
+              "staticDuration": "128s",
+              "polyline": {
+                "encodedPolyline": "ue}iC|mbqRLBHFFDFJFHJTP`@R`@N\\f@bALVDH|@~ANVf@v@JJNLbCdBVPzAz@n@Z"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.764589800000003,
+                  "longitude": -102.5815903
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7615149,
+                  "longitude": -102.58495149999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 70,
+              "staticDuration": "23s",
+              "polyline": {
+                "encodedPolyline": "mr|iC|bcqRVa@Vc@Tk@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7615149,
+                  "longitude": -102.58495149999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.761165,
+                  "longitude": -102.58438220000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia P.º la Encantada\nEl destino está a la derecha."
+              }
+            }
+          ],
+          "travelAdvisory": {
+            "speedReadingIntervals": [
+              {
+                "startPolylinePointIndex": 0,
+                "endPolylinePointIndex": 2,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 2,
+                "endPolylinePointIndex": 7,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 7,
+                "endPolylinePointIndex": 17,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 17,
+                "endPolylinePointIndex": 24,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 24,
+                "endPolylinePointIndex": 27,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 27,
+                "endPolylinePointIndex": 53,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 53,
+                "endPolylinePointIndex": 55,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 55,
+                "endPolylinePointIndex": 64,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 64,
+                "endPolylinePointIndex": 73,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 73,
+                "endPolylinePointIndex": 97,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 97,
+                "endPolylinePointIndex": 104,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 104,
+                "endPolylinePointIndex": 109,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 109,
+                "endPolylinePointIndex": 115,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 115,
+                "endPolylinePointIndex": 117,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 117,
+                "endPolylinePointIndex": 119,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 119,
+                "endPolylinePointIndex": 141,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 141,
+                "endPolylinePointIndex": 161,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 161,
+                "endPolylinePointIndex": 166,
+                "speed": "NORMAL"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 2617,
+      "duration": "600s",
+      "staticDuration": "625s",
+      "polyline": {
+        "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@BDDJk@~@S^U\\fA`A`@\\^Zl@d@RRv@l@z@|@v@f@ZRPJTPJHFHDFFLJXDPBPF^@TEREb@AL?JDNBNFLFNJHLHJBFBF?P@JAXGt@c@\\Qp@[TY|AaCRa@HDB@D@BBBDBHHRBDDHHNJLLJHFH@T?`@G`@GXIPEHGJQDIHOFSFOBEDCFCJ?PA`@?D?D?FCxAt@|Az@\\PXNPH^R^PXNBBhAj@f@Zv@\\x@`@RLHF|@f@PPHDDDDDDJDRAPEj@ALAJC^ADAHAPCVMjAGd@Gd@G^?D?F?JBPBNDHDHDDDDD@VJJD\\JLBHFFDFJFHJTP`@R`@N\\f@bALVDH|@~ANVf@v@JJNLbCdBVPBBvAv@n@ZVa@Vc@Tk@"
+      },
+      "description": "C. 5 Señores",
+      "viewport": {
+        "low": {
+          "latitude": 22.761165,
+          "longitude": -102.58495149999999
+        },
+        "high": {
+          "latitude": 22.7758329,
+          "longitude": -102.57334829999999
+        }
+      },
+      "travelAdvisory": {
+        "speedReadingIntervals": [
+          {
+            "startPolylinePointIndex": 0,
+            "endPolylinePointIndex": 2,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 2,
+            "endPolylinePointIndex": 7,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 7,
+            "endPolylinePointIndex": 17,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 17,
+            "endPolylinePointIndex": 24,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 24,
+            "endPolylinePointIndex": 27,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 27,
+            "endPolylinePointIndex": 53,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 53,
+            "endPolylinePointIndex": 55,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 55,
+            "endPolylinePointIndex": 64,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 64,
+            "endPolylinePointIndex": 73,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 73,
+            "endPolylinePointIndex": 97,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 97,
+            "endPolylinePointIndex": 104,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 104,
+            "endPolylinePointIndex": 109,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 109,
+            "endPolylinePointIndex": 115,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 115,
+            "endPolylinePointIndex": 117,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 117,
+            "endPolylinePointIndex": 119,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 119,
+            "endPolylinePointIndex": 141,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 141,
+            "endPolylinePointIndex": 161,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 161,
+            "endPolylinePointIndex": 166,
+            "speed": "NORMAL"
+          }
+        ]
+      },
+      "routeToken": "CssCCtgBCgjYqYIREaVPExJI-VCTDZWM3MKoPGCWx40gdqvLYsVQD6RHxZEfDJ2RHwweX39-J2xoEqNtC6ZYj-tDmBUOzt25b86AgtMJ38AD938dXSy118DYGlqisMy2DK0C2FG3CMIBmTL2BwW9AtgDI54BtwImjnnHRR6rDPgXeaIH5BRJhiHOJ0nPB4eEAdoBhTmKxAJ7lAbXEVKAA7kDVJQGvQJg_YIFpIcCnwHAH9qMAQ8iAmpVQhbTAUOLAhymASkxqgFB0gEsrwMV-gVVSggxDTk_tU5bP3gBEAQaVQpTChgKDQoCCAERAAAAAACAZkARy6FFtvPhhUASEggAEAMQBhATGAJCBhoCCAUqABoGCgQIAhACIhkKF0VZeHBZNlBHTy1tSHZPTVBnOUtud0FFKAEiFQCEqmIigGFJxag79Dbghs4nnn3MzQ",
+      "routeLabels": [
+        "DEFAULT_ROUTE"
+      ]
+    },
+    {
+      "legs": [
+        {
+          "distanceMeters": 3156,
+          "duration": "667s",
+          "staticDuration": "691s",
+          "polyline": {
+            "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@BDDJk@~@S^U\\fA`A`@\\^Zj@d@n@iAR]`@o@s@k@Vg@`@oAReA`@sB?Y?I?I@I@G@EDIDCFE^UHIFENKXM^Q^QjAk@v@c@ZQVUj@e@FALEn@z@XT@Bp@n@BBBBDHJV`@HB?DADEv@sBDMFODIDEHEHAF?Z?BLNh@JVFJP^HT^r@JTJRVl@x@vATXZ\\RPNLNJ`@Th@XVL`A`@LFDBRJt@d@l@d@LJVXLLT^Vj@Vv@BRDX?Z?RBr@@jA@nABhF?v@@f@DF@B@D@F?L@~@@DBLDJFHBBHHFBF@ZDLHFJDHDH@F?D?FAHCVMjAGd@Gd@G^?D?F?JBPBNDHDHDDDDD@VJJD\\JF@D@HFFDFJFHJTP`@R`@N\\f@bALVDH|@~ANVf@v@JJNLbCdBVPFDrAt@n@ZVa@Vc@Tk@"
+          },
+          "startLocation": {
+            "latLng": {
+              "latitude": 22.7758329,
+              "longitude": -102.57334829999999
+            }
+          },
+          "endLocation": {
+            "latLng": {
+              "latitude": 22.761165,
+              "longitude": -102.58438220000001
+            }
+          },
+          "steps": [
+            {
+              "distanceMeters": 171,
+              "staticDuration": "59s",
+              "polyline": {
+                "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@@@@B@@BH"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7758329,
+                  "longitude": -102.57334829999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.774482,
+                  "longitude": -102.57408009999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 81,
+              "staticDuration": "24s",
+              "polyline": {
+                "encodedPolyline": "oc_jC~~`qRk@~@S^U^"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.774482,
+                  "longitude": -102.57408009999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.77491,
+                  "longitude": -102.57471989999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 131,
+              "staticDuration": "35s",
+              "polyline": {
+                "encodedPolyline": "ef_jC~baqRfA~@`@\\^Zl@d@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.77491,
+                  "longitude": -102.57471989999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7739934,
+                  "longitude": -102.5755239
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia Fernando Villalpando"
+              }
+            },
+            {
+              "distanceMeters": 96,
+              "staticDuration": "34s",
+              "polyline": {
+                "encodedPolyline": "m`_jC~gaqRl@iAR]`@o@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7739934,
+                  "longitude": -102.5755239
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7734904,
+                  "longitude": -102.5747584
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda después de Zac Ink Tattoo & Piercing Studio (a la izquierda)"
+              }
+            },
+            {
+              "distanceMeters": 36,
+              "staticDuration": "14s",
+              "polyline": {
+                "encodedPolyline": "i}~iCfcaqRs@k@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7734904,
+                  "longitude": -102.5747584
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7737478,
+                  "longitude": -102.5745431
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia Miguel Auza"
+              }
+            },
+            {
+              "distanceMeters": 70,
+              "staticDuration": "26s",
+              "polyline": {
+                "encodedPolyline": "}~~iCzaaqRVg@`@oA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7737478,
+                  "longitude": -102.5745431
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.773462799999997,
+                  "longitude": -102.5739371
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia De Rosales"
+              }
+            },
+            {
+              "distanceMeters": 100,
+              "staticDuration": "40s",
+              "polyline": {
+                "encodedPolyline": "c}~iCb~`qRReA`@sB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.773462799999997,
+                  "longitude": -102.5739371
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7731876,
+                  "longitude": -102.5730122
+                }
+              }
+            },
+            {
+              "distanceMeters": 52,
+              "staticDuration": "19s",
+              "polyline": {
+                "encodedPolyline": "m{~iChx`qR?Y?I?I@I@G@EDIDCFE"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7731876,
+                  "longitude": -102.5730122
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.773056399999998,
+                  "longitude": -102.5725557
+                }
+              }
+            },
+            {
+              "distanceMeters": 252,
+              "staticDuration": "65s",
+              "polyline": {
+                "encodedPolyline": "sz~iCnu`qR^UHIFENKXM^Q^QjAk@v@c@ZQVUj@e@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.773056399999998,
+                  "longitude": -102.5725557
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7711373,
+                  "longitude": -102.5712652
+                }
+              }
+            },
+            {
+              "distanceMeters": 162,
+              "staticDuration": "46s",
+              "polyline": {
+                "encodedPolyline": "sn~iClm`qRFALEn@z@XT@Bp@n@BBBBDHJV`@H@?@?B?@A"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7711373,
+                  "longitude": -102.5712652
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7700531,
+                  "longitude": -102.5721543
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia Justo Sierra\nPasa por Sombrereria Nueva (a la izquierda)."
+              }
+            },
+            {
+              "distanceMeters": 132,
+              "staticDuration": "32s",
+              "polyline": {
+                "encodedPolyline": "yg~iC|r`qR@ABCv@sBDMFODIDE@?FEHAF?Z?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7700531,
+                  "longitude": -102.5721543
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7693326,
+                  "longitude": -102.5712731
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia C. Garcia de La Cadena"
+              }
+            },
+            {
+              "distanceMeters": 941,
+              "staticDuration": "84s",
+              "polyline": {
+                "encodedPolyline": "ic~iClm`qRBLNh@JVFJP^HT^r@JTJRVl@x@vATXZ\\RPNLNJ`@Th@XVL`A`@LFDBRJt@d@l@d@LJVXLLT^Vj@Vv@BRDX?Z?RBr@@jA@nABhF?v@@f@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7693326,
+                  "longitude": -102.5712731
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7655302,
+                  "longitude": -102.57870059999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia Blvd. Adolfo López Mateos/Guadalupe - Zacatecas/México 45"
+              }
+            },
+            {
+              "distanceMeters": 115,
+              "staticDuration": "14s",
+              "polyline": {
+                "encodedPolyline": "qk}iCz{aqRDF@B@D@F?L@~@@D?@BJDJFHBBHHFBF@@@XB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7655302,
+                  "longitude": -102.57870059999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7650746,
+                  "longitude": -102.5795591
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "RAMP_LEFT",
+                "instructions": "Toma la salida de la izquierda en dirección Zona la Encantada"
+              }
+            },
+            {
+              "distanceMeters": 251,
+              "staticDuration": "48s",
+              "polyline": {
+                "encodedPolyline": "uh}iCfabqRLHFJDHDH@LAPCVMjAGd@Gd@G^?D?F?JBP?@BLDHDHDDDDD@VJJD\\J"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7650746,
+                  "longitude": -102.5795591
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.764589800000003,
+                  "longitude": -102.5815903
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "FORK_RIGHT",
+                "instructions": "Mantente a la derecha en la bifurcación, sigue las señales de El Orito/México 57/Guadalajara y pasa a De La Unión"
+              }
+            },
+            {
+              "distanceMeters": 496,
+              "staticDuration": "128s",
+              "polyline": {
+                "encodedPolyline": "ue}iC|mbqRLBHFFDFJFHJTP`@R`@N\\f@bALVDH|@~ANVf@v@JJNLbCdBVPzAz@n@Z"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.764589800000003,
+                  "longitude": -102.5815903
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7615149,
+                  "longitude": -102.58495149999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 70,
+              "staticDuration": "23s",
+              "polyline": {
+                "encodedPolyline": "mr|iC|bcqRVa@Vc@Tk@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7615149,
+                  "longitude": -102.58495149999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.761165,
+                  "longitude": -102.58438220000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia P.º la Encantada\nEl destino está a la derecha."
+              }
+            }
+          ],
+          "travelAdvisory": {
+            "speedReadingIntervals": [
+              {
+                "startPolylinePointIndex": 0,
+                "endPolylinePointIndex": 2,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 2,
+                "endPolylinePointIndex": 7,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 7,
+                "endPolylinePointIndex": 17,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 17,
+                "endPolylinePointIndex": 21,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 21,
+                "endPolylinePointIndex": 29,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 29,
+                "endPolylinePointIndex": 34,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 34,
+                "endPolylinePointIndex": 39,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 39,
+                "endPolylinePointIndex": 50,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 50,
+                "endPolylinePointIndex": 52,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 52,
+                "endPolylinePointIndex": 53,
+                "speed": "TRAFFIC_JAM"
+              },
+              {
+                "startPolylinePointIndex": 53,
+                "endPolylinePointIndex": 73,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 73,
+                "endPolylinePointIndex": 134,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 134,
+                "endPolylinePointIndex": 136,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 136,
+                "endPolylinePointIndex": 156,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 156,
+                "endPolylinePointIndex": 176,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 176,
+                "endPolylinePointIndex": 181,
+                "speed": "NORMAL"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 3156,
+      "duration": "667s",
+      "staticDuration": "693s",
+      "polyline": {
+        "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@BDDJk@~@S^U\\fA`A`@\\^Zj@d@n@iAR]`@o@s@k@Vg@`@oAReA`@sB?Y?I?I@I@G@EDIDCFE^UHIFENKXM^Q^QjAk@v@c@ZQVUj@e@FALEn@z@XT@Bp@n@BBBBDHJV`@HB?DADEv@sBDMFODIDEHEHAF?Z?BLNh@JVFJP^HT^r@JTJRVl@x@vATXZ\\RPNLNJ`@Th@XVL`A`@LFDBRJt@d@l@d@LJVXLLT^Vj@Vv@BRDX?Z?RBr@@jA@nABhF?v@@f@DF@B@D@F?L@~@@DBLDJFHBBHHFBF@ZDLHFJDHDH@F?D?FAHCVMjAGd@Gd@G^?D?F?JBPBNDHDHDDDDD@VJJD\\JF@D@HFFDFJFHJTP`@R`@N\\f@bALVDH|@~ANVf@v@JJNLbCdBVPFDrAt@n@ZVa@Vc@Tk@"
+      },
+      "description": "Blvd. Adolfo López Mateos/Guadalupe - Zacatecas/México 45",
+      "viewport": {
+        "low": {
+          "latitude": 22.761165,
+          "longitude": -102.58495149999999
+        },
+        "high": {
+          "latitude": 22.7758329,
+          "longitude": -102.5712276
+        }
+      },
+      "travelAdvisory": {
+        "speedReadingIntervals": [
+          {
+            "startPolylinePointIndex": 0,
+            "endPolylinePointIndex": 2,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 2,
+            "endPolylinePointIndex": 7,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 7,
+            "endPolylinePointIndex": 17,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 17,
+            "endPolylinePointIndex": 21,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 21,
+            "endPolylinePointIndex": 29,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 29,
+            "endPolylinePointIndex": 34,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 34,
+            "endPolylinePointIndex": 39,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 39,
+            "endPolylinePointIndex": 50,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 50,
+            "endPolylinePointIndex": 52,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 52,
+            "endPolylinePointIndex": 53,
+            "speed": "TRAFFIC_JAM"
+          },
+          {
+            "startPolylinePointIndex": 53,
+            "endPolylinePointIndex": 73,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 73,
+            "endPolylinePointIndex": 134,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 134,
+            "endPolylinePointIndex": 136,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 136,
+            "endPolylinePointIndex": 156,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 156,
+            "endPolylinePointIndex": 176,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 176,
+            "endPolylinePointIndex": 181,
+            "speed": "NORMAL"
+          }
+        ]
+      },
+      "routeToken": "CvsCCogCCghCz2W8nOxughJc-VCTDZWM3MKoPGCWx40gdqvLYsWhy2LFEL2zORq9szlr1DfyQbqIT323b6jQz1COUC4uH8wb6KbArVBeG06eKkPqp5NHDsqNA6Wt8pUsAj8CXbvAfx1dLLXXwNgac6KwzLYMrQLYUbcIwgGZMvYHBRGNARfGB_oyE2GHAhzII4kFCcs-tg2wActhsXRWzgevJ7gB4QbODVfqK4J0rwHHE5eJAfQBuDbQVk7RCPICGM0w5By1AYQFowpkngWjBEryBmdC_-ME0IoCmwHcILiNAQ8iA2qtCkIY0wFDQT8xKzWCA1V1Tmb_BiZQFxIOrQVWSggxDTk_tU5bP3gBEAQaVQpTChgKDQoCCAERAAAAAACAZkARv58aL91Oi0ASEggAEAMQBhATGAJCBhoCCAUqABoGCgQIAhACIhkKF0VZeHBZNlBHTy1tSHZPTVBnOUtud0FFKAEiFQCEqmIiTOLovr9eW2Sjrp94-5uZnA",
+      "routeLabels": [
+        "DEFAULT_ROUTE_ALTERNATE"
+      ]
+    },
+    {
+      "legs": [
+        {
+          "distanceMeters": 4013,
+          "duration": "705s",
+          "staticDuration": "746s",
+          "polyline": {
+            "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@BDDJk@~@S^U\\fA`A`@\\^Zl@d@RRv@l@z@z@v@h@ZRPJTPJHFHDFFLJXDPBPF^@TEREb@AL?JDNBNFLFNJHLHJB\\r@HVJf@?J?Z?F@`A?NCNNXDj@Dd@@J@BBFHFWt@t@Z~@b@~Ar@^P^P^PAD?B?BBB@BYXWV]ZEFEDa@b@GHGNERANEhAAt@?RAJANKXOd@SVQNSNa@LQFSD_@Bc@BE?[BuAJk@Rc@R_@ZEBEB]TOPMPMLEDIJGHKVCHEN?BAD?H?H?JBHBHBBFDDBD@DAD?FAFCFEv@o@TQFGBC@EDK@E?EDKRSFEDEFIHIHGDAPGf@MRCjAG`@GHCXS\\K^Q\\]X]Ta@JU`@qAVo@Ve@Z_@TQNMPMRIRE\\E`@Cf@?t@AL?|@?`@?`@CN?n@ENCPCTGNEPIRM^ULIHGZUZURvATnBHb@RhAD^@F?F?HAj@o@lAc@nA?H@FBRFGBCZWl@q@ZYx@cAl@gAn@iAn@kAxB~Ax@`@bBfAJBLBD@ZDD@x@l@`@_@JJNLbCdBRN~A|@n@ZVa@Vc@Tk@"
+          },
+          "startLocation": {
+            "latLng": {
+              "latitude": 22.7758329,
+              "longitude": -102.57334829999999
+            }
+          },
+          "endLocation": {
+            "latLng": {
+              "latitude": 22.761165,
+              "longitude": -102.58438220000001
+            }
+          },
+          "steps": [
+            {
+              "distanceMeters": 171,
+              "staticDuration": "59s",
+              "polyline": {
+                "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@@@@B@@BH"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7758329,
+                  "longitude": -102.57334829999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.774482,
+                  "longitude": -102.57408009999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 81,
+              "staticDuration": "24s",
+              "polyline": {
+                "encodedPolyline": "oc_jC~~`qRk@~@S^U^"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.774482,
+                  "longitude": -102.57408009999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.77491,
+                  "longitude": -102.57471989999999
+                }
+              }
+            },
+            {
+              "distanceMeters": 299,
+              "staticDuration": "80s",
+              "polyline": {
+                "encodedPolyline": "ef_jC~baqRfA~@`@\\^Zl@d@RRv@l@|@|@t@f@ZRPJ"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.77491,
+                  "longitude": -102.57471989999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7728009,
+                  "longitude": -102.5765249
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia Fernando Villalpando\nPasa por Zac Ink Tattoo & Piercing Studio (a la izquierda)."
+              }
+            },
+            {
+              "distanceMeters": 209,
+              "staticDuration": "51s",
+              "polyline": {
+                "encodedPolyline": "_y~iCfnaqRTPJH?@FFDFFLJXDPBPF^@TEREb@AL?JDNBNFLFNJHLHJB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7728009,
+                  "longitude": -102.5765249
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7721105,
+                  "longitude": -102.57824339999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "STRAIGHT",
+                "instructions": "Continúa recto hacia Elías Amador"
+              }
+            },
+            {
+              "distanceMeters": 66,
+              "staticDuration": "17s",
+              "polyline": {
+                "encodedPolyline": "ut~iC~xaqR\\r@HVJf@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7721105,
+                  "longitude": -102.57824339999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.771846600000003,
+                  "longitude": -102.5788178
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SLIGHT_RIGHT",
+                "instructions": "Gira ligeramente a la derecha hacia Juan de Tolosa"
+              }
+            },
+            {
+              "distanceMeters": 75,
+              "staticDuration": "15s",
+              "polyline": {
+                "encodedPolyline": "as~iCr|aqR?J?Z?F@`A?NCN"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.771846600000003,
+                  "longitude": -102.5788178
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7718591,
+                  "longitude": -102.5795512
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SLIGHT_RIGHT",
+                "instructions": "Gira ligeramente a la derecha hacia Esteban S. Castorena"
+              }
+            },
+            {
+              "distanceMeters": 79,
+              "staticDuration": "14s",
+              "polyline": {
+                "encodedPolyline": "cs~iCdabqRNXDj@Dd@@J@BBFHF"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7718591,
+                  "longitude": -102.5795512
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7716334,
+                  "longitude": -102.5802547
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda para continuar por Esteban S. Castorena"
+              }
+            },
+            {
+              "distanceMeters": 223,
+              "staticDuration": "45s",
+              "polyline": {
+                "encodedPolyline": "uq~iCpebqRWt@t@Z~@b@~Ar@^P^P^P"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7716334,
+                  "longitude": -102.5802547
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7702014,
+                  "longitude": -102.5813731
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "STRAIGHT",
+                "instructions": "Continúa recto hacia Francisco Villa"
+              }
+            },
+            {
+              "distanceMeters": 535,
+              "staticDuration": "72s",
+              "polyline": {
+                "encodedPolyline": "wh~iCplbqR?@A??@?@?@?@?@?@@@?@@??@@@@?[XWV]ZEFEDa@b@GHGNERANEhAAt@?RAJANKXOd@SVQNSNa@LQFSD_@Bc@BE?[BuAJk@Rc@R_@Z"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7702014,
+                  "longitude": -102.5813731
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7732834,
+                  "longitude": -102.584514
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "ROUNDABOUT_RIGHT",
+                "instructions": "En la rotonda, toma la primera salida en dirección Miguel Alemán"
+              }
+            },
+            {
+              "distanceMeters": 330,
+              "staticDuration": "56s",
+              "polyline": {
+                "encodedPolyline": "_|~iCd`cqREBEB]TOPMPMLEDIJGHKVCHEN?BAD?H?H?JBH?BBDBBFDDBD@DA@?B?FAFCFEv@o@TQFGBC@EDK@E?EDKRSFEDEFIHIHGDARI"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7732834,
+                  "longitude": -102.584514
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7726389,
+                  "longitude": -102.5846614
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "ROUNDABOUT_RIGHT",
+                "instructions": "Sal de la rotonda"
+              }
+            },
+            {
+              "distanceMeters": 765,
+              "staticDuration": "75s",
+              "polyline": {
+                "encodedPolyline": "_x~iCbacqRd@KRCjAG`@GHCZUZI^Q\\]X]@AR_@JU`@qAVo@Ve@Z_@TQNMPMRIRE\\E`@Cf@?t@AL?|@?`@?`@CN?n@ENCPCTGNEPIRM^ULIHGZU\\W"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7726389,
+                  "longitude": -102.5846614
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.766882,
+                  "longitude": -102.58156939999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "RAMP_LEFT",
+                "instructions": "Toma el ramal de la izquierda en dirección Calz. Héroes de Chapultepec/Morelos-Zacatecas/México 45"
+              }
+            },
+            {
+              "distanceMeters": 333,
+              "staticDuration": "47s",
+              "polyline": {
+                "encodedPolyline": "_t}iCxmbqRPxATpBH`@RhAD^@F?F?HAn@o@hAc@nA?H@FDT"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.766882,
+                  "longitude": -102.58156939999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7668844,
+                  "longitude": -102.58463049999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia Av San Marcos"
+              }
+            },
+            {
+              "distanceMeters": 272,
+              "staticDuration": "52s",
+              "polyline": {
+                "encodedPolyline": "_t}iC|`cqRDIBC@AXUl@q@ZYx@cAl@gAn@iAp@kA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7668844,
+                  "longitude": -102.58463049999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.765314999999998,
+                  "longitude": -102.58261279999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia Nueva Celaya"
+              }
+            },
+            {
+              "distanceMeters": 264,
+              "staticDuration": "58s",
+              "polyline": {
+                "encodedPolyline": "ej}iChtbqRvB~Az@b@`BdAJBLBD@ZDD@x@l@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.765314999999998,
+                  "longitude": -102.58261279999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7632974,
+                  "longitude": -102.58393660000002
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia Bolaños"
+              }
+            },
+            {
+              "distanceMeters": 24,
+              "staticDuration": "7s",
+              "polyline": {
+                "encodedPolyline": "s}|iCr|bqR`@_@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7632974,
+                  "longitude": -102.58393660000002
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7631347,
+                  "longitude": -102.5837825
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia Peñoles"
+              }
+            },
+            {
+              "distanceMeters": 217,
+              "staticDuration": "51s",
+              "polyline": {
+                "encodedPolyline": "q||iCr{bqRJJNLbCdBVPzAz@n@Z"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7631347,
+                  "longitude": -102.5837825
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.7615149,
+                  "longitude": -102.58495149999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Gira a la derecha hacia C. 5 Señores"
+              }
+            },
+            {
+              "distanceMeters": 70,
+              "staticDuration": "23s",
+              "polyline": {
+                "encodedPolyline": "mr|iC|bcqRVa@Vc@Tk@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 22.7615149,
+                  "longitude": -102.58495149999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 22.761165,
+                  "longitude": -102.58438220000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Gira a la izquierda hacia P.º la Encantada\nEl destino está a la derecha."
+              }
+            }
+          ],
+          "travelAdvisory": {
+            "speedReadingIntervals": [
+              {
+                "startPolylinePointIndex": 0,
+                "endPolylinePointIndex": 2,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 2,
+                "endPolylinePointIndex": 7,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 7,
+                "endPolylinePointIndex": 17,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 17,
+                "endPolylinePointIndex": 24,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 24,
+                "endPolylinePointIndex": 27,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 27,
+                "endPolylinePointIndex": 152,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 152,
+                "endPolylinePointIndex": 158,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 158,
+                "endPolylinePointIndex": 194,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 194,
+                "endPolylinePointIndex": 196,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 196,
+                "endPolylinePointIndex": 203,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 203,
+                "endPolylinePointIndex": 208,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 208,
+                "endPolylinePointIndex": 219,
+                "speed": "NORMAL"
+              },
+              {
+                "startPolylinePointIndex": 219,
+                "endPolylinePointIndex": 231,
+                "speed": "SLOW"
+              },
+              {
+                "startPolylinePointIndex": 231,
+                "endPolylinePointIndex": 236,
+                "speed": "NORMAL"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 4013,
+      "duration": "705s",
+      "staticDuration": "748s",
+      "polyline": {
+        "encodedPolyline": "}k_jClz`qRDBLF~@TB@JDTL\\Vx@ZFBXHFBF@BDDJk@~@S^U\\fA`A`@\\^Zl@d@RRv@l@z@z@v@h@ZRPJTPJHFHDFFLJXDPBPF^@TEREb@AL?JDNBNFLFNJHLHJB\\r@HVJf@?J?Z?F@`A?NCNNXDj@Dd@@J@BBFHFWt@t@Z~@b@~Ar@^P^P^PAD?B?BBB@BYXWV]ZEFEDa@b@GHGNERANEhAAt@?RAJANKXOd@SVQNSNa@LQFSD_@Bc@BE?[BuAJk@Rc@R_@ZEBEB]TOPMPMLEDIJGHKVCHEN?BAD?H?H?JBHBHBBFDDBD@DAD?FAFCFEv@o@TQFGBC@EDK@E?EDKRSFEDEFIHIHGDAPGf@MRCjAG`@GHCXS\\K^Q\\]X]Ta@JU`@qAVo@Ve@Z_@TQNMPMRIRE\\E`@Cf@?t@AL?|@?`@?`@CN?n@ENCPCTGNEPIRM^ULIHGZUZURvATnBHb@RhAD^@F?F?HAj@o@lAc@nA?H@FBRFGBCZWl@q@ZYx@cAl@gAn@iAn@kAxB~Ax@`@bBfAJBLBD@ZDD@x@l@`@_@JJNLbCdBRN~A|@n@ZVa@Vc@Tk@"
+      },
+      "description": "Calz. Héroes de Chapultepec/Morelos-Zacatecas/México 45",
+      "viewport": {
+        "low": {
+          "latitude": 22.761165,
+          "longitude": -102.58568509999999
+        },
+        "high": {
+          "latitude": 22.7758329,
+          "longitude": -102.57334829999999
+        }
+      },
+      "travelAdvisory": {
+        "speedReadingIntervals": [
+          {
+            "startPolylinePointIndex": 0,
+            "endPolylinePointIndex": 2,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 2,
+            "endPolylinePointIndex": 7,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 7,
+            "endPolylinePointIndex": 17,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 17,
+            "endPolylinePointIndex": 24,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 24,
+            "endPolylinePointIndex": 27,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 27,
+            "endPolylinePointIndex": 152,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 152,
+            "endPolylinePointIndex": 158,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 158,
+            "endPolylinePointIndex": 194,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 194,
+            "endPolylinePointIndex": 196,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 196,
+            "endPolylinePointIndex": 203,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 203,
+            "endPolylinePointIndex": 208,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 208,
+            "endPolylinePointIndex": 219,
+            "speed": "NORMAL"
+          },
+          {
+            "startPolylinePointIndex": 219,
+            "endPolylinePointIndex": 231,
+            "speed": "SLOW"
+          },
+          {
+            "startPolylinePointIndex": 231,
+            "endPolylinePointIndex": 236,
+            "speed": "NORMAL"
+          }
+        ]
+      },
+      "routeToken": "CoUECpIDCghVl0XosUOGuBKQAflQkw2VjNzCqDxglseNIHary2LFUA-kR8WRHwydkR8Mk5EfDIF9oW8z2D9LgUvWem09yORjPcjk78D2xeXA9sW8toQ0ioNvqFEAHDn31oBKdCVAPIa_-NJO73umMk56cC2Jskz1ocwyo8plfi6dLbhvlRKTt0EEu0gjso9mI7KPTCNCkzSe-11_HV0stdfA2BqxAaKwzLYMrQLYUbcIwgGZMvYHBb0C2AMjngG3AiaOecdFHijMAjLmAtkBMpABbz6lAjod_QGOA1XsEZUISscY2ieDASoMFtQI8QV08BiYC5gByWW3G1zjDbsuT8fJAtiMAa4CuQuxCUgh5wE43QObEjaSC7YnWf0jz7MBHv4s_37kAbJi-hEbnwnOJOMBjCz6LTW3DoNZDPMNlh4WXuAWrwHpA4lqrgG3A4AIIcAf2owBDyIFqmq1agFCLNMBQ4sCHKYBJSEUJisnYmFCGugCkgGCAh8fQ2TJBEmNAhnqAUHLASBDkwFVSggxDTk_tU5bP3gBEAQaVQpTChgKDQoCCAERAAAAAACAZkARtch2vp_EjEASEggAEAMQBhATGAJCBhoCCAUqABoGCgQIAhACIhkKF0VZeHBZNlBHTy1tSHZPTVBnOUtud0FFKAEiFQCEqmIi7B6WuP830XFtgR2kDSCiYQ",
+      "routeLabels": [
+        "DEFAULT_ROUTE_ALTERNATE"
+      ]
+    }
+  ]
+}
